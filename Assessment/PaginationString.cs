@@ -18,21 +18,22 @@ namespace Assessment
         public void FirstPage()
         {
             currentPage = 1;
+            
         }
 
         public void GoToPage(int page)
         {
-            throw new System.NotImplementedException();
+            currentPage = page;
         }
 
         public void LastPage()
         {
-            throw new System.NotImplementedException();
+      
         }
 
         public void NextPage()
         {
-            
+            currentPage = currentPage + 1;
         }
 
         public void PrevPage()
